@@ -1,0 +1,1000 @@
+/* Tamaños de pantalla 2700px (Full HD y 4k)*/
+@media only screen and (max-width: 2700px) {
+    #main-container {
+        margin: 30px 40px;
+
+    }
+
+    .h1-to-home {
+        display: block;
+        text-decoration: none;
+        font-size: 40px;
+        font-weight: bold;
+        color: #242526;
+        position: fixed;
+        top: 0;
+        left: 0;
+        text-align: left;
+        height: 9%;
+        background-color: #01879000;
+        width: 20%;
+        margin: 60px 40px 0px;
+        z-index: 5;
+        cursor: pointer;
+    }
+
+    .h1-to-home:hover {
+        background-color: #01879000;
+        color: #131313;
+    }
+
+    .h1-to-home span {
+        margin-left: 20%;
+        display: inline-block;
+    }
+
+    .header {
+        padding: 5% 2%;
+        text-align: center;
+        height: auto;
+        display: flex;
+    }
+
+    .presentation {
+        font-size: 80px;
+        text-align: center;
+        line-height: 1.5em;
+        width: 100%;
+    }
+
+    .card {
+        position: relative;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-top: 0.5%;
+        margin: 40px 40px;
+        z-index: 3;
+    }
+
+    .background-bar {
+        width: 100%;
+        height: 1%;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    .navMenu {
+        list-style-type: none;
+        margin-top: 1%;
+        margin-right: 1%;
+        padding: 0;
+        display: flex;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .nav-item {
+        margin-left: 1px;
+        font-size: 25px;
+        transition: transform 0.3s ease;
+        display: inline-block;
+        transform: scale(0.8);
+    }
+
+    .nav-item:hover {
+        transform: scale(1.0);
+    }
+
+    .nav-link {
+        display: block;
+        color: #242526;
+        text-align: center;
+        text-decoration: none;
+        padding: 14px 16px;
+    }
+
+    .social-icons {
+        margin-top: 0.1%;
+        margin-right: 5px;
+        transition: transform 0.3s ease;
+        display: inline-block;
+        transform: scale(0.8);
+    }
+
+    .social-icons a {
+        display: inline-block;
+        margin: 0 5px;
+        color: #242526;
+        text-decoration: none;
+    }
+
+    .social-icons img {
+        width: 30px;
+        /* Ajusta el tamaño según tu preferencia */
+        height: auto;
+        /* Mantiene la proporción de aspecto */
+    }
+
+    .social-icons:hover {
+        transform: scale(1.0);
+    }
+
+    .headline {
+        display: inline-block;
+        text-align: center;
+    }
+
+    h1 {
+        color: #242526;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .title {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .header h2 {
+        font-size: 24px;
+    }
+
+    .title-photo-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .foto-portafolio-1 {
+        border-radius: 50%;
+        width: 40%;
+        max-width: 400px;
+        align-self: flex-start;
+        margin: 7%;
+        align-self: center;
+    }
+
+    /* Estilo para el contenido principal */
+    .main-content {
+        max-width: 800px;
+        /* Ancho máximo del contenido principal */
+        margin: 0 auto;
+        /* Centra el contenido horizontalmente */
+        padding: 20px;
+        /* Relleno interno de 20px */
+        background-color: #131313;
+        /* Color de fondo para el contenido principal */
+        color: #ffffff;
+        /* Color de texto para el contenido principal */
+        min-height: 200vh;
+        /* Altura mínima del contenido al menos del 100% de la altura de la ventana */
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #ffffff;
+        /* Color de fondo para el cuerpo de la página */
+        margin: 0;
+        /* Elimina márgenes externos en el cuerpo */
+        padding: 0;
+        /* Elimina el relleno en el cuerpo */
+        font-family: 'inter', sans-serif;
+        min-height: 200vh;
+        z-index: -100;
+    }
+
+    /* Estilo para los títulos h1 en el contenido principal */
+    .main-content h1 {
+        font-size: 32px;
+        /* Tamaño de fuente para h1 en el contenido principal */
+        margin-bottom: 20px;
+        /* Márgenes inferiores de 20px para h1 */
+    }
+
+    /* Estilo para los títulos h2 en el contenido principal */
+    .main-content h2 {
+        font-size: 24px;
+        /* Tamaño de fuente para h2 en el contenido principal */
+        margin-bottom: 10px;
+        /* Márgenes inferiores de 10px para h2 */
+    }
+
+    /* Estilo para los párrafos en el contenido principal */
+    .main-content p {
+        font-size: 16px;
+        /* Tamaño de fuente para párrafos en el contenido principal */
+        line-height: 1.5;
+        /* Altura de línea del texto */
+        margin-bottom: 20px;
+        /* Márgenes inferiores de 20px para párrafos */
+    }
+
+    #about {
+        padding-top: 7%;
+        padding-bottom: 20%;
+        text-align: left;
+        background-color: #ffffff;
+        font-family: 'Inter', sans-serif;
+        color: black;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 100%;
+        padding-top: 0%;
+        flex-direction: row;
+    }
+
+    .about-h1 {
+        font-size: 70px;
+        position: relative;
+        margin-left: auto;
+    }
+
+    .h1 {
+        font-size: 70px;
+        padding-right: 5%;
+        color: black;
+    }
+
+    .about-h3 {
+        font-size: 25px;
+        margin-left: 25px;
+        width: 50%;
+        /* Esto debería ser suficiente para ocupar la mitad del ancho */
+        line-height: 1.6;
+        text-align: start;
+        flex: 0 0 50%;
+        /* Esto puede ayudar a limitar el tamaño del elemento dentro del flexbox */
+    }
+
+    #skills {
+        display: block;
+        background-color: #ffffff;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        padding-top: 7%;
+    }
+
+    .skills {
+        text-align: start;
+    }
+
+    .h1-skill {
+        font-size: 60px;
+        width: 100%;
+    }
+
+    .content {
+        display: block;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 100px;
+    }
+
+    .skill-title {
+        font-size: 20px;
+      }
+
+    .skills-text {
+        width: 100%;
+        text-align: start;
+        color: #242526;
+    }
+
+    .skills-content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 0%;
+        color: #242526;
+    }
+
+    .skills-card {
+        display: grid;
+        background-color: none;
+        padding: 15px;
+        border-radius: 8px;
+        font-size: 35px;
+        border: none;
+        text-align: center;
+        font-size: 45px;
+        gap: 20px;
+        color: #242526;
+    }
+
+    .img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    #languages {
+        color: #131313;
+        height: 300px;
+        justify-content: left;
+        align-items: left;
+        text-align: left;
+
+    }
+
+    .h1-languages {
+        color: #131313;
+        display: block;
+        text-align: left;
+        font-size: 70px;
+        margin-left: 25px;
+    }
+
+    .languages {
+        display: flex;
+        font-size: 25px;
+        justify-content: left;
+        text-align: left;
+        gap: 70px;
+        margin-left: 25px;
+    }
+
+    .h1-project {
+        font-size: 70px;
+        text-align: start;
+        margin-left: 25px;
+    }
+
+    #projects {
+        padding-top: 7%;
+        text-align: center;
+        background-color: #ffffff;
+        height: auto;
+    }
+
+    .project-type {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 33%;
+        height: 300px;
+        background-color: #ffffff;
+        text-align: center;
+        border: 1px solid #ddd;
+        transition: transform 0.3s ease;
+        display: inline-block;
+        transform: scale(0.8);
+    }
+
+    .project-type:hover {
+        transform: scale(1.0);
+    }
+
+    #contact {
+        text-align: right;
+        padding-top: 3%;
+        background-color: #ffffff;
+        height: auto;
+        padding-top: 7%;
+    }
+
+    .contact-h1 {
+        color: #242526;
+        /* Color de texto blanco */
+        /* Margen superior de -60px */
+        font-family: 'Inter', sans-serif;
+        /* Fuente del texto */
+        font-size: 70px;
+        margin-left: 25px;
+        text-align: left;
+    }
+
+    .contact-h3 {
+        color: #242526;
+        font-size: 60px;
+        font-family: "inter", sans-serif;
+        text-align: center;
+        line-height: 1.8;
+        width: 100%;
+        margin-left: 25px;
+    }
+
+    .contact-flex {
+        display: block;
+    }
+
+    .label {
+        color: #ffffff;
+        /* Color de texto blanco */
+        font-family: "Inter", sans-serif;
+        /* Fuente del texto */
+        line-height: 1.5;
+        /* Altura de línea de 1.5 */
+        width: 95%;
+        margin-right: 5%;
+    }
+
+    .add-info {
+        display: flex;
+        color: #242526;
+        font-family: 'inter', sans-serif;
+        text-align: center;
+        width: 100%;
+        gap: 25px;
+        font-size: 20px;
+        justify-content: center;
+    }
+
+    #footer {
+        background-color: #ffffff;
+        height: 200px;
+        display: block;
+    }
+
+    .footer {
+        background-color: #ffffff;
+        /* Color de fondo del pie de página */
+        color: #ffffff;
+        /* Color de texto blanco */
+        text-align: center;
+        /* Alineación del texto en el centro */
+        /* Relleno de 20px arriba y abajo y 0 a los lados */
+        font-family: Arial, Helvetica, sans-serif;
+        /* Fuente del pie de página */
+        gap: 30px;
+    }
+}
+
+/* Tamaños de pantalla 640px (tabletas)*/
+@media only screen and (max-width: 834px) {
+    .h1-to-home {
+        display: block;
+        text-decoration: none;
+        font-size: 100%;
+        font-weight: bold;
+        color: #fff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: none;
+        padding: 10px 20px;
+        mask-image: linear-gradient(black 70%, transparent);
+        -webkit-mask-image: linear-gradient(black 70%, transparent);
+        z-index: 120;
+        transition: background-color 0.3s ease;
+        text-align: left;
+        height: 8%;
+        width: max-content;
+    }
+
+    /* Añade una regla para cambiar el color de fondo en hover */
+    .h1-to-home:hover {
+        background-color: none;
+        color: #131313;
+        -webkit-text-stroke: 1px white;
+    }
+
+    /* Estilo adicional para el texto en el título */
+    .h1-to-home span {
+        margin-left: 20%;
+        display: inline-block;
+    }
+
+    /* Estilo para el encabezado */
+    .header {
+        background-color: #131313;
+        color: #fff;
+        text-align: center;
+        width: 100%;
+        height: min-content;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .presentation {
+        font-size: 300%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .presentation2 {
+        font-size: 300%;
+        text-align: center;
+        width: 100%;
+        margin: 10% 0 10%;
+        color: #49af73;
+    }
+
+    .card {
+        position: relative;
+    }
+
+    .navbar {
+        background-color: #01879000;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        mask-image: linear-gradient(black 70%, transparent);
+        -webkit-mask-image: linear-gradient(black 70%, transparent);
+        z-index: 100;
+        padding-top: 0.5%;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        z-index: 100;
+        margin: 2%;
+        background-color: none;
+        color: #fff;
+    }
+
+    .menu-icon.show-icon {
+        transform: rotate(-360deg) translateX(100%);
+    }
+
+    .bar {
+        width: 25px;
+        height: 4px;
+        background-color: white;
+        color: #fff;
+        margin: 6px 0;
+        transition: background-color 0.3s ease;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .bar:hover {
+        background-color: #53f258;
+        color: #fff;
+    }
+
+    .background-bar {
+        background-color: none;
+        width: 100%;
+        height: min-content;
+        position: fixed;
+        top: 0;
+        left: 0;
+        mask-image: linear-gradient(black 70%, transparent);
+        -webkit-mask-image: linear-gradient(black 70%, transparent);
+        z-index: 10;
+    }
+
+    .navMenu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: none;
+        font-size: 18px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+    .navMenu.show-menu {
+        display: block;
+        height: 250px;
+        padding: -25%;
+    }
+
+    .nav-item {
+        font-size: 20px;
+        margin: 25px;
+        transition: background-color 0.3s ease;
+        font-weight: bold;
+        text-decoration: none;
+        background-color: none;
+        transition: transform 0.3s ease;
+        display: inline-block;
+        transform: scale(0.8);
+    }
+
+    .nav-item:hover {
+        transform: scale(1.0);
+        background-color: none;
+        color: #fff;
+    }
+
+    .nav-link {
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        padding: 14px 16px 0 0;
+        margin-bottom: -20px;
+    }
+
+    .nav-link:hover {
+        background-color: #01879000;
+        text-decoration: none;
+        color: #0a516d00;
+        -webkit-text-stroke: 1px white;
+    }
+
+    .headline {
+        display: inline-block;
+        text-align: center;
+    }
+
+    /* Estilos generales de encabezados h1 */
+    h1 {
+        color: #fff;
+        /* Color de texto para h1 */
+        font-family: 'Inter', sans-serif;
+        /* Fuente para h1 */
+    }
+
+    /* Estilos para títulos */
+    .title {
+        display: inline-block;
+        text-align: center;
+    }
+
+    /* Estilos para encabezados h2 */
+    .header h2 {
+        font-size: 24px;
+        /* Tamaño de fuente para h2 en el encabezado */
+    }
+
+    .title-photo-container {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .foto-portafolio-1 {
+        display: block;
+        /* o inline-block según tus necesidades */
+        margin: auto;
+        /* para centrar horizontalmente */
+        /* otras propiedades que ya tienes */
+        border-radius: 50%;
+        width: 65%;
+    }
+
+    /* Estilo para el contenido principal */
+    .main-content {
+        margin: 0 auto;
+        /* Centra el contenido horizontalmente */
+        padding: 20px;
+        /* Relleno interno de 20px */
+        background-color: #131313;
+        /* Color de fondo para el contenido principal */
+        color: #fff;
+        /* Color de texto para el contenido principal */
+        min-height: 100vh;
+        /* Altura mínima del contenido al menos del 100% de la altura de la ventana */
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'inter', sans-serif;
+        min-height: 200vh;
+        min-width: 320px;
+        background-color: #ffffff;
+    }
+
+    /* Estilo para los títulos h1 en el contenido principal */
+    .main-content h1 {
+        font-size: 32px;
+        /* Tamaño de fuente para h1 en el contenido principal */
+        margin-bottom: 20px;
+        /* Márgenes inferiores de 20px para h1 */
+    }
+
+    /* Estilo para los títulos h2 en el contenido principal */
+    .main-content h2 {
+        font-size: 24px;
+        /* Tamaño de fuente para h2 en el contenido principal */
+        margin-bottom: 10px;
+        /* Márgenes inferiores de 10px para h2 */
+    }
+
+    /* Estilo para los párrafos en el contenido principal */
+    .main-content p {
+        font-size: 16px;
+        /* Tamaño de fuente para párrafos en el contenido principal */
+        line-height: 1.5;
+        /* Altura de línea del texto */
+        margin-bottom: 20px;
+        /* Márgenes inferiores de 20px para párrafos */
+    }
+
+    #about {
+        display: block;
+        text-align: left;
+        background-color: #fff;
+        font-family: 'Inter', sans-serif;
+        color: #fff;
+        text-align: left;
+        width: 100%;
+        height: auto;
+        justify-content: left;
+        align-items: left;
+        margin-left: 25px;
+    }
+
+    .about {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-h1 {
+        font-size: 70px;
+        /* Tamaño de fuente para el título h1 de la sección About */
+        position: relative;
+        /* Posición relativa para el título h1 */
+        margin-left: auto;
+        /* Ajusta el margen izquierdo automáticamente */
+        color: #0c0720;
+    }
+
+    /* Estilo para los enlaces h1 cuando se pasa el cursor por encima */
+
+    .about-h3 {
+        font-size: 20px;
+        /* Tamaño de fuente predeterminado para pantallas más grandes */
+        margin-left: 25px;
+        color: #0c0720;
+        width: 100%;
+        text-align: start;
+        align-items: center;
+    }
+
+    #skills {
+        display: block;
+        background-color: #49af73;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        /* Centrar horizontalmente */
+        align-items: center;
+        /* Centrar verticalmente */
+    }
+
+    .skills {
+        text-align: start;
+    }
+
+    .h1-skill {
+        font-size: 50px;
+        /* O absolute, dependiendo del flujo */
+        /* Asegúrate de que left esté inicializado */
+        right: 0;
+        /* Cambia la posición del elemento a la derecha */
+        margin-top: 7%;
+        width: 300%;
+        line-height: normal;
+    }
+
+    .content {
+        display: block;
+        justify-content: center;
+        align-items: flex-start;
+        width: 90%;
+        margin: 0 auto;
+        gap: 100px;
+    }
+
+    .skills-text {
+        width: 40%;
+        text-align: start;
+        line-height: 2;
+        margin-top: -2%;
+    }
+
+    .skills-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* Tres columnas de igual tamaño */
+        gap: 30px;
+        /* Espacio entre los elementos */
+        margin-top: 0%;
+    }
+
+
+    .skills-card {
+        display: grid;
+        background-color: none;
+        padding: 15px;
+        border-radius: 8px;
+        font-size: 35px;
+        border: none;
+        text-align: center;
+        font-size: 35px;
+        gap: 15px;
+        color: #fff;
+    }
+
+    .h1-project {
+        font-size: 50px;
+        position: relative;
+        text-align: start;
+        padding-left: 5%;
+    }
+
+    #projects {
+        padding-top: 7%;
+        text-align: center;
+        background-color: #131313;
+        height: auto;
+    }
+
+    .project-type {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 33%;
+        height: auto;
+        background-color: #fff;
+        text-align: center;
+        border: 1px solid #ddd;
+        transition: transform 0.3s ease;
+        display: inline-block;
+        transform: scale(0.8);
+    }
+
+    .project-type:hover {
+        transform: scale(1.0);
+        /* Escala del proyecto al 105% cuando se pasa el cursor por encima */
+    }
+
+    #contact {
+        text-align: right;
+        padding-top: 7%;
+        background-color: #49af73;
+        height: auto;
+    }
+
+    .contact-h1 {
+        color: #fff;
+        /* Color de texto blanco */
+        /* Margen superior de -60px */
+        font-family: 'Inter', sans-serif;
+        /* Fuente del texto */
+        font-size: 50px;
+        /* Tamaño de fuente de 50px */
+    }
+
+    .contact-h3 {
+        color: #fff;
+        /* Color de texto blanco */
+        font-size: 40px;
+        /* Tamaño de fuente de 50px */
+        font-family: "inter", sans-serif;
+        /* Fuente del texto */
+        text-align: left;
+        /* Alineación del texto a la izquierda */
+        line-height: 2.2;
+        /* Altura de línea de 2 */
+        padding-left: 5%;
+        /* Relleno izquierdo de 20px */
+        width: 100%;
+        /* Ancho de 600px */
+        margin-top: 0;
+    }
+
+    .contact-flex {
+        display: block;
+    }
+
+    form {
+        display: grid;
+        /* Mostrar como cuadrícula */
+        gap: 10px;
+        /* Espacio entre elementos de 10px */
+        margin: 5px;
+        /* Márgenes de 20px */
+        width: 100%;
+    }
+
+    .formulario {
+        width: 90%;
+        margin: auto;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        border: 1px solid #150000;
+        /* Borde de 1px sólido con color #ccc */
+        border-radius: 4px;
+        /* Radio de borde de 4px */
+        padding: 10px;
+        /* Relleno interno de 10px */
+        width: 100%;
+        /* Ancho del 100% */
+    }
+
+    input[type="submit"] {
+        background-color: rgb(3, 87, 3);
+        /* Color de fondo del botón de envío */
+        border: none;
+        /* Sin borde */
+        color: white;
+        /* Color de texto blanco */
+        cursor: pointer;
+        /* Cambio de cursor a mano */
+        padding: 10px 20px;
+        /* Relleno del botón de envío */
+        text-align: center;
+        /* Alineación del texto en el centro */
+        text-decoration: none;
+        /* Sin decoración de texto */
+        display: inline-block;
+        /* Mostrar en línea como bloque */
+        font-size: 16px;
+        /* Tamaño de fuente de 16px */
+        margin: 4px 2px;
+        /* Márgenes superior e inferior de 4px y márgenes izquierdo y derecho de 2px */
+        transition-duration: 0.4s;
+        /* Duración de la transición de 0.4 segundos */
+    }
+
+    input[type="submit"]:hover {
+        background-color: #00ff08;
+        /* Color de fondo del botón de envío al pasar el cursor por encima */
+    }
+
+    .label {
+        color: #fff;
+        /* Color de texto blanco */
+        font-family: "Inter", sans-serif;
+        /* Fuente del texto */
+        line-height: 1.5;
+        /* Altura de línea de 1.5 */
+    }
+
+    .add-info {
+        color: #ababab;
+        /* Color de texto blanco */
+        font-family: 'inter', sans-serif;
+        /* Fuente del texto */
+        text-align: left;
+        width: 100%;
+        padding-left: 5%;
+        gap: 25px;
+    }
+
+    .footer {
+        background-color: #131313;
+        /* Color de fondo del pie de página */
+        color: #fff;
+        /* Color de texto blanco */
+        text-align: center;
+        /* Alineación del texto en el centro */
+        padding: 20px 0;
+        /* Relleno de 20px arriba y abajo y 0 a los lados */
+        font-family: Arial, Helvetica, sans-serif;
+        /* Fuente del pie de página */
+        margin-top: relative;
+        /* Margen superior automático */
+        height: auto;
+    }
+}

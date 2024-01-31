@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description"
+        content="Welcome to my portfolio! See my personal projects & work in front-end, back-end...">
+    <meta name="author" content="Camilo Tuñón">
+    <title>Camilo Tuñón - Software Developer</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="archivo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="main-container">
+    <header class="header">
+        <div class="title-photo-container">
+            <h1><a class="h1-to-home" href="index.html">Camilo Tuñón</a></h1>
+            <h1 class="presentation">Hi, my name is <br>Camilo Tuñón <br>
+                Frontend Developer</h1>
+            <img src="foto-portafolio-1.jpg" alt="yo" class="foto-portafolio-1">
+        </div>
+        <nav class="navbar">
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="navMenu">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Portfolio</a>
+                </li>
+                <!--<li class="nav-item">
+                    <a href="#blog" class="nav-link">Blog</a>
+                </li>-->
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div>
+                <a href="https://www.linkedin.com/in/camilo-tunon/" target="perfil-linkedIn" class="social-icons">
+                    <img src="LinkedIn_logo.png" alt="LinkedIn Logo">
+                </a>
+                <a href="https://github.com/camtmhub" target="github-logo" class="social-icons">
+                    <img src="Github_logo.png" alt="GitHub Logo">
+                </a>
+            </div>
+        </nav>
+    </header>
+    <div class="background-bar"></div>
+    <main>
+        <!-- Contenido de la sección About -->
+        <section id="about">
+            <h1 class="h1">About Me</h1>
+            <div class="about">
+                <h3 class="about-h3">
+                    I'm a Bug Wrangler in Training.<br>
+                    Based in Panama. <br>
+                    I am a fan of all digital things,
+                    but I had never taken the time
+                    to learn how to create it. <br>
+                    I adore my amazing wife, but my relationship
+                    with ice cream is something special;
+                    she understands it. </h3>
+            </div>
+        </section>
+
+        <!--Contenido de la sección Skills-->
+        <section id="skills" class="skills">
+            <div class="content">
+                <div class="skills-text">
+                    <h1 class="h1-skill">The arsenal of oddities</h1>
+                </div>
+                <div class="skills-content">
+                    <article class="skills-card">
+                        <img src="html.png" alt="HTML Logo" class="img">
+                        <span class="skill-title">HTML</span>
+                    </article>
+
+                    <article class="skills-card">
+                        <img src="css.png" alt="CSS Logo" class="img">
+                        <span class="skill-title">CSS</span>
+                    </article>
+
+                    <article class="skills-card">
+                        <img src="js.png" alt="JS Logo" class="img">
+                        <span class="skill-title">JavaScript</span>
+                    </article>
+
+                    <article class="skills-card">
+                        <img src="python.png" alt="Python Logo" class="img">
+                        <span class="skill-title">Python</span>
+                    </article>
+
+                    <article class="skills-card">
+                        <img src="vs.png" alt="VS Logo" class="img">
+                        <span class="skill-title">Visual Studio</span>
+                    </article>
+
+                    <article class="skills-card">
+                        <img src="github.png" alt="GitHub Logo" class="img">
+                        <span class="skill-title">Github</span>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+        <section id="languages">
+            <h1 class="h1-languages">Languages</h1>
+            <div class="languages">
+                <h3 class="language-container">Spanish <br> Native</h3>
+                <h3 class="language-container">English <br> B2</h3>
+            </div>
+        </section>
+
+        <!-- Contenido de la sección Projects -->
+        <section id="projects">
+            <h1 class="h1-project">Projects</h1>
+            <div class="project-type">
+                <img src="proyecto1.jpg" alt="Proyecto 1">
+                <h3>Generador de Sudokus</h3>
+                <p>Te da sudokus generados aleatoriamente. Junto tiene la solución.</p>
+            </div>
+            <div class="project-type">
+                <img src="proyecto2.jpg" alt="Proyecto 2">
+                <h3>To Do List</h3>
+                <p>Te permite generar una nueva tarea y te permite ir acomodandolas de una columna a la otra.</p>
+            </div>
+            <div class="project-type">
+                <img src="proyecto3.jpg" alt="Proyecto 3">
+                <h3>Portafolio</h3>
+                <p>Es esto donde estás.</p>
+            </div>
+        </section>
+        <!-- Contenido de la sección Contact -->
+        <section id="contact" class="contact">
+            <h1 class="contact-h1">Contact</h1>
+            <div class="contact-flex">
+                <h3 class="contact-h3">Do you have a project? <br>Share me your idea. <br> Let's work together! <br>Send an
+                    email o message.</h3>
+
+            </div>
+            <div class="container">
+            </div>
+        </section>
+    </main>
+    <!--Contenido del Footer-->
+    <footer class="footer">
+        <div class="container">
+
+            <div class="add-info">
+                <p>E-mail: <a href="cam.tm.contact@gmail.com">cam.tm.contact@gmail.com</a></p>
+                <p>Phone: +507 6862-1093</a></p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/camilo-tunon/" target="perfil-linkedIn">
+                        <img src="LinkedIn_logo.png" alt="LinkedIn Logo">
+                    </a>
+                    <a href="https://github.com/camtmhub" target="_blank">
+                        <img src="Github_logo.png" alt="GitHub Logo">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-content">
+                <p>&copy; 2023 Camilo Tuñón</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
