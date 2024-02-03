@@ -293,7 +293,7 @@
 
     .skill-title {
         font-size: 20px;
-      }
+    }
 
     .skills-text {
         width: 100%;
@@ -353,35 +353,52 @@
         margin-left: 25px;
     }
 
-    .h1-project {
-        font-size: 70px;
-        text-align: start;
-        margin-left: 25px;
-    }
-
     #projects {
         padding-top: 7%;
-        text-align: center;
-        background-color: #ffffff;
-        height: auto;
+        text-align: left;
+    }
+
+    .h1-project {
+        font-size: 70px;
+        text-align: left;
+        margin-left: 25px;
+        display: flex;
+        flex-direction: start;
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
     }
 
     .project-type {
         margin-top: 5%;
         margin-bottom: 5%;
-        width: 33%;
-        height: 300px;
+        width: 100%;
+        max-width: 500px;
         background-color: #ffffff;
         text-align: center;
-        border: 1px solid #ddd;
+        border: 2px solid #242526;
         transition: transform 0.3s ease;
-        display: inline-block;
-        transform: scale(0.8);
+        box-sizing: border-box;
     }
 
     .project-type:hover {
-        transform: scale(1.0);
+        transform: scale(1.1);
     }
+
+    .project-info {
+        padding: 10px;
+    }
+
+    .project-image {
+        /* Estilos específicos para la imagen */
+        width: 100%;
+        border-radius: 8px;
+    }
+
 
     #contact {
         text-align: right;
